@@ -1,0 +1,39 @@
+@import "../variable/variable";
+#traver {
+  padding: 150px 0px;
+  .first_row{
+    margin-top: 112px;
+    margin-bottom: 30px;
+  }
+  .travel_service {
+    padding: 79px 45px 77px 47px;
+    border-radius: 14px;
+    transition: all 0.4s;
+    &:hover {
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      cursor: pointer;
+    }
+    .icon {
+      padding: 18px 24px;
+      background: rgb(0, 127, 95, 10%);
+      width: 84px;
+      border-radius: 14px;
+     
+    }
+    h3 {
+      margin-top: 39px;
+      margin-bottom: 20px;
+      font-family: "Poppins", sans-serif;
+      font-size: 25px;
+      font-weight: 500;
+      color: #1e1e1e;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: $secondary-color;
+    }
+    
+  }
+}

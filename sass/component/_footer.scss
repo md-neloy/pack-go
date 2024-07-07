@@ -1,0 +1,65 @@
+@import "../variable/variable";
+#footer {
+  padding: 150px 0 105px;
+  .soial_media {
+    gap: 40px;
+    margin: 40px 0;
+    li {
+      &:hover a {
+        transition: all 0.4s;
+        rotate: -360deg;
+      }
+    }
+  }
+  .contact {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $secondary-color;
+    li {
+      margin-bottom: 5px;
+    }
+    a {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: $secondary-color;
+    }
+  }
+  .Tour {
+    li {
+      &:first-child {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #1e1e1e;
+        margin-bottom: 10px;
+      }
+      margin-bottom: 5px;
+      a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: $secondary-color;
+      }
+    }
+  }
+  .usefulPage{
+    li{
+        &:first-child{
+            font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #1e1e1e;
+        margin-bottom: 10px;
+        }
+        margin-bottom: 5px;
+        a{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: $secondary-color;
+      }
+    }
+  }
+}
